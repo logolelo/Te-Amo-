@@ -81,7 +81,7 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden absolute top-full left-0 right-0 bg-background border-b border-border animate-fade-in">
+          <div className="md:hidden absolute top-full left-0 right-0 bg-background border-b border-border">
             <div className="flex flex-col py-6 px-6 gap-4">
               {navLinks.map((link) => (
                 <Link

@@ -37,7 +37,7 @@ const ProductDetail = () => {
           {/* Product Detail */}
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-start">
             {/* Image */}
-            <div className="animate-fade-in">
+            <div>
               <div className="relative aspect-square rounded-2xl overflow-hidden shadow-elevated bg-card">
                 <img
                   src={product.image}
@@ -51,7 +51,7 @@ const ProductDetail = () => {
             </div>
 
             {/* Info */}
-            <div className="animate-slide-up">
+            <div>
               <p className="text-subheadline text-muted-foreground mb-2">
                 Te Amo · Natural Blends
               </p>

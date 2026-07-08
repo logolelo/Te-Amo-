@@ -17,6 +17,13 @@ export default {
         serif: ['Cormorant Garamond', 'Georgia', 'serif'],
         sans: ['Jost', 'system-ui', 'sans-serif'],
       },
+      fontWeight: {
+        light: '300',
+        normal: '300', // Override default normal weight to 300!
+        medium: '400',
+        semibold: '500',
+        bold: '500',
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

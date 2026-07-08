@@ -15,14 +15,14 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           {/* Text Content */}
           <div className="order-2 lg:order-1 text-center lg:text-left">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl text-foreground mb-4 animate-slide-up" style={{ animationDelay: '0.1s' }}>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-foreground mb-4" style={{ fontWeight: 300 }}>
               Perfume That Fits in Your Pocket. Fragrance That Stays With You.
             </h1>
-            <p className="text-sm md:text-base lg:text-lg text-muted-foreground max-w-lg mx-auto lg:mx-0 mb-6 animate-slide-up" style={{ animationDelay: '0.2s' }}>
+            <p className="text-sm md:text-base lg:text-lg text-muted-foreground max-w-lg mx-auto lg:mx-0 mb-6">
               Carry your signature scent everywhere with Te Amo's handcrafted solid perfumes. 
               No spills, no alcohol, no bulky bottles—just long-lasting fragrance made with natural oils and beeswax.
             </p>
-            <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start animate-slide-up" style={{ animationDelay: '0.3s' }}>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
               <Button variant="hero" size="lg" onClick={handleShopClick}>
                 Shop Collection
               </Button>
@@ -31,7 +31,7 @@ const HeroSection = () => {
           </div>
 
           {/* Hero Image */}
-          <div className="order-1 lg:order-2 animate-scale-in">
+          <div className="order-1 lg:order-2">
             <div className="relative">
               <div className="aspect-[16/10] rounded-xl overflow-hidden shadow-elevated">
                 <img
