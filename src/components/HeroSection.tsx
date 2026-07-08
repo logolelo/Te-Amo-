@@ -2,6 +2,13 @@ import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-teamo.jpg";
 
 const HeroSection = () => {
+  const handleShopClick = () => {
+    const collectionSection = document.getElementById("collection");
+    if (collectionSection) {
+      collectionSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section className="relative h-[550px] flex items-center gradient-hero pt-20">
       <div className="container mx-auto px-6">
@@ -16,7 +23,7 @@ const HeroSection = () => {
               No spills, no alcohol, no bulky bottles—just long-lasting fragrance made with natural oils and beeswax.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start animate-slide-up" style={{ animationDelay: '0.3s' }}>
-              <Button variant="hero" size="lg">
+              <Button variant="hero" size="lg" onClick={handleShopClick}>
                 Shop Collection
               </Button>
             </div>

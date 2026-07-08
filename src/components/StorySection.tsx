@@ -12,6 +12,7 @@ const StorySection = () => {
                 src={ingredientsImage}
                 alt="Natural essential oils and botanicals"
                 className="w-full h-full object-cover"
+                loading="lazy"
               />
             </div>
           </div>

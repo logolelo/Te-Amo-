@@ -43,6 +43,7 @@ const ProductDetail = () => {
                   src={product.image}
                   alt={`Te Amo ${product.name} solid perfume`}
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
             </div>

@@ -58,7 +58,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/20 mt-12 pt-8 text-center">
           <p className="font-sans text-xs text-primary-foreground/60 tracking-wide">
-            © 2024 Te Amo. All rights reserved. Made with love in India.
+            © 2026 Te Amo. All rights reserved. Made with love in India.
           </p>
         </div>
       </div>

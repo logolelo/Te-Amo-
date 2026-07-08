@@ -1,8 +1,8 @@
-import citrus from "@/assets/citrus.png";
-import embrace from "@/assets/embrace.png";
-import jasmine from "@/assets/jasmine.png";
-import oud from "@/assets/oud.png";
-import rose from "@/assets/rose.png";
+import citrus from "@/assets/citrus.webp";
+import embrace from "@/assets/embrace.webp";
+import jasmine from "@/assets/jasmine.webp";
+import oud from "@/assets/oud.webp";
+import rose from "@/assets/rose.webp";
 
 export interface Product {
   slug: string;

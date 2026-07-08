@@ -21,6 +21,7 @@ const ProductCard = ({ slug, image, name, notes, price, originalPrice, isHighlyR
               src={image}
               alt={`Te Amo ${name} solid perfume`}
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+              loading="lazy"
             />
             <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/5 transition-colors duration-300 rounded-xl" />
           </div>
