@@ -9,11 +9,13 @@ const StorySection = () => {
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden shadow-elevated">
               <img
-                src={ingredientsImage}
-                alt="Natural essential oils and botanicals"
-                className="w-full h-full object-cover"
-                loading="lazy"
-              />
+                  src={ingredientsImage}
+                  alt="Natural essential oils and botanicals"
+                  className="w-full h-full object-cover"
+                  loading="lazy"
+                  width={600}
+                  height={600}
+                />
             </div>
           </div>
 

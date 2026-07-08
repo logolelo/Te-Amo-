@@ -44,6 +44,8 @@ const ProductDetail = () => {
                   alt={`Te Amo ${product.name} solid perfume`}
                   className="w-full h-full object-cover"
                   loading="lazy"
+                  width={600}
+                  height={600}
                 />
               </div>
             </div>

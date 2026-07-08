@@ -38,6 +38,9 @@ const HeroSection = () => {
                   src={heroImage}
                   alt="Te Amo solid perfume collection"
                   className="w-full h-full object-cover"
+                  loading="eager"
+                  width={800}
+                  height={500}
                 />
               </div>
               {/* Decorative elements */}

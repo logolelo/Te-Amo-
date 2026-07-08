@@ -30,9 +30,12 @@ const Header = () => {
             }}
           >
             <img 
-              src="/Te amo logo black 1000 x1000 px-16.png" 
+              src="/logo.png" 
               alt="Te Amo Logo" 
               className="h-10 w-10 object-contain"
+              width={40}
+              height={40}
+              loading="eager"
             />
           </button>
 
