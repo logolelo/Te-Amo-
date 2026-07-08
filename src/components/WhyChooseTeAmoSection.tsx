@@ -35,7 +35,7 @@ const WhyChooseTeAmoSection = () => {
   ];
 
   return (
-    <section className="py-24 bg-gradient-to-b from-secondary/30 via-cream/30 to-background" id="why-choose">
+    <section className="py-24 gradient-romantic" id="why-choose">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-serif mb-4 text-foreground">
